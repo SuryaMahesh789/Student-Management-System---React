@@ -15,6 +15,9 @@ function SearchByName(props){
     const [foundgender,setFoundgender]=useState("")
     const [foundemail,setFoundemail]=useState("")
 
+    const [negativeerr,setNegativerr]=useState(0)
+
+
       const handleSearch = async (e)=>{
     e.preventDefault();
 
@@ -49,7 +52,13 @@ function SearchByName(props){
   const handleUpdate = async (e)=>{
     e.preventDefault();
 
-    await axios.put(`http://localhost:4000/put/${searchname}`,{
+    if(Number(updateage)<0)
+    {
+      setNegativerr(1);
+    }
+    else{
+      setNegativerr(0)
+      await axios.put(`http://localhost:4000/put/${searchname}`,{
       data:{
         name:updatename,
         age:updateage,
@@ -66,6 +75,7 @@ function SearchByName(props){
 
     setSearchname("")
     setFound(2)
+    }
 
   }
 
@@ -152,6 +162,13 @@ function SearchByName(props){
         </>
       
       }
+
+      
+      {
+        negativeerr === 1 && 
+        <p><b>Age Must Be Postive Integer</b></p>
+      }
+
       <br/>
       </center>
       <br/>
