@@ -11,10 +11,19 @@ function Add(props)
     const [email,setEmail]=useState("")
 
 
+    const [negativeerr,setNegativerr]=useState(0)
+
+
     const handleSubmit= async (e)=>{
         e.preventDefault()
 
-        const response =await  axios.post("http://localhost:4000/add",{
+       
+        if(Number(age)<0)
+        {
+            setNegativerr(1);
+        }
+        else{
+         const response =await  axios.post("http://localhost:4000/add",{
             data:{
             name:name,
             age:age,
@@ -29,6 +38,8 @@ function Add(props)
         setAge(0)
         setEmail("")
         setGender("")
+        }
+        
     }
 
     return (
@@ -58,6 +69,11 @@ function Add(props)
         <button >Add Student</button>
         <br/>
       </form>
+
+      {
+        negativeerr === 1 && 
+        <p><b>Age Must Be Postive Integer</b></p>
+      }
             </center>
         
         </div>
