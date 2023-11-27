@@ -82,3 +82,13 @@
 `MongoDB Snapshot`
 
 ![image](https://github.com/SuryaMahesh789/Student-Management-System-MERN/assets/101471548/887e0bdf-9419-466e-ad42-830f453af28d)
+
+`Validation with age in Add Student Page`
+
+![image](https://github.com/SuryaMahesh789/Student-Management-System-MERN/assets/101471548/0a6ff1f0-9a5c-4d57-8816-f4fcb2431c84)
+
+`Negative Age Error`
+
+![image](https://github.com/SuryaMahesh789/Student-Management-System-MERN/assets/101471548/f011467f-3fde-4e49-a0ba-8680beafb504)
+
+
