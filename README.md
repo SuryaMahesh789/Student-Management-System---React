@@ -79,3 +79,6 @@
 
 ![image](https://github.com/SuryaMahesh789/Student-Management-System---React/assets/101471548/aaad6164-6399-4ad9-9580-a33d5a77f469)
 
+`MongoDB Snapshot`
+
+![image](https://github.com/SuryaMahesh789/Student-Management-System-MERN/assets/101471548/887e0bdf-9419-466e-ad42-830f453af28d)
