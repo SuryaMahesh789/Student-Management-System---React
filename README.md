@@ -91,4 +91,8 @@
 
 ![image](https://github.com/SuryaMahesh789/Student-Management-System-MERN/assets/101471548/f011467f-3fde-4e49-a0ba-8680beafb504)
 
+`Validation with age in Search & Update Student Page`
 
+![image](https://github.com/SuryaMahesh789/Student-Management-System-MERN/assets/101471548/a1c6706f-4e3e-43b6-82e0-f54d3871a63b)
+
+![image](https://github.com/SuryaMahesh789/Student-Management-System-MERN/assets/101471548/a05a197b-3190-436b-86f3-dc5707a6ba17)
